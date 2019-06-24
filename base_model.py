@@ -8,7 +8,7 @@ from metrics import mrr_mr_hitk
 from data_utils import batch_by_size
 import logging
 
-
+# start BaseModule
 class BaseModule(nn.Module):
     def __init__(self):
         super(BaseModule, self).__init__()
